@@ -1,0 +1,131 @@
+.gradient-background {
+    background: linear-gradient(300deg, #fff5fe, #f1dff5, #d4cecd);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+  }
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.paragraph-one{
+    display:flex;
+
+}
+.paragraph-one{
+
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+   
+}
+
+
+.profile-pic{
+    
+    border-radius: 50%;   
+
+}
+
+.introduction{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size:4rem;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(252, 4, 78);
+}
+
+
+.nail2{
+
+    height: 200px;
+    width:200px;
+    border-radius:45%;
+    padding-top:20px;
+    margin-bottom: -80px;
+ 
+}
+
+.line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nail1{
+    
+    height: 200px;
+    width:200px;
+    border-radius:45%;
+    padding-top:20px;
+    margin-top: -80px;
+
+}
+
+
+.flower{
+    
+    border-radius:45% ;
+   
+}
+
+.profile-image{
+    
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.skills{
+    background-color: rgb(148, 101, 148);
+    padding-top:20px;
+    padding-bottom: 20px;
+   
+}
+
+.skills img{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 10px;
+    
+
+}
+.skills p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left{
+    margin-left: 20px;
+}
+h5{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media(max-width:600px) {
+  .paragraph-one{
+  flex-direction: column;
+  height:100%;
+    }
+  .nail2{
+    margin-bottom: 20px;
+    margin-left: 350px;
+  }
+
+  }
